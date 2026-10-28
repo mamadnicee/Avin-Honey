@@ -953,6 +953,8 @@ export default function HoneyStore({
             </div>
           </div>
         </section>
-      </main>
-    );
-  }
+       </main>
+    </div>
+  );
+}
+
