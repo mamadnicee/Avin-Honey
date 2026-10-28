@@ -950,3 +950,8 @@ export default function HoneyStore({
                   </li>
                 </ul>
 
+              </div>
+            </section>
+          </main>
+        );
+      }
