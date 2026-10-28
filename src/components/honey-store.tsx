@@ -946,3 +946,7 @@ export default function HoneyStore({
                     <AvIcon name="drop" size={18} />
                     <span>
                       <b>بعد تجربه</b> از وزن کوچک‌تر، با یک طعم تازه آشنا شو.
+                    </span>
+                  </li>
+                </ul>
+
