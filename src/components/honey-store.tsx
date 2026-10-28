@@ -500,8 +500,9 @@ export default function HoneyStore({
     scrollTo("products");
   }
 
-  function addToCart(product: StoreProduct, variant: StoreVariant) {
-    if (typeof variant.price !== "number") {
+    function addToCart(product: StoreProduct, variant: StoreVariant) {
+    const unitPrice = variant.price;
+    if (typeof unitPrice !== "number") {
       announce("قیمت این محصول هنوز تعیین نشده است.");
       return;
     }
@@ -529,7 +530,7 @@ export default function HoneyStore({
               name: product.name,
               image: product.image,
               weight: variant.weight,
-              price: variant.price,
+              price: unitPrice,
               quantity: 1,
             },
           ],
@@ -537,6 +538,7 @@ export default function HoneyStore({
 
     announce(`${product.name} به سبد اضافه شد.`);
   }
+
 
   function changeQuantity(sku: string, delta: number) {
     const variant = products.flatMap((p) => p.variants).find((v) => v.sku === sku);
