@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="نشان روشن آوین هانی">
+  <defs>
+    <linearGradient id="aGoldW" x1="80" y1="400" x2="430" y2="140" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E8B22C"/><stop offset=".5" stop-color="#F7D667"/><stop offset="1" stop-color="#FBE9A8"/>
+    </linearGradient>
+  </defs>
+  <path fill-rule="evenodd" fill="#FFFFFF" d="M70 437 205 89C214 66 231 53 256 53C281 53 298 66 307 89L442 437 354 437 256 171 158 437 70 437ZM218 348 256 242 294 348Z"/>
+  <path d="M76 392C160 394 203 353 250 279 290 216 332 178 402 152" stroke="url(#aGoldW)" stroke-width="25" stroke-linecap="round" fill="none"/>
+  <path d="M116 360C74 356 46 333 36 292 76 293 105 314 116 360Z" fill="#F4ECD4" stroke="#FFFFFF" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M132 332C128 292 146 264 186 250 191 289 172 318 132 332Z" fill="#E7D9AE" stroke="#FFFFFF" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M393 118C372 147 360 165 360 181A33 33 0 0 0 426 181C426 165 414 147 393 118Z" fill="url(#aGoldW)" stroke="#FFFFFF" stroke-width="9" stroke-linejoin="round"/>
+  <path d="M381 172C381 180 386 186 393 189" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" fill="none"/>
+</svg>
