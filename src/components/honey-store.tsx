@@ -949,9 +949,11 @@ export default function HoneyStore({
                     </span>
                   </li>
                 </ul>
-
               </div>
-            </section>
-          </main>
-        );
-      }
+            </Reveal>
+          </div>
+        </div>
+      </section>
+    </main>
+  );
+}
